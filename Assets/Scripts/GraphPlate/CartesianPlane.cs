@@ -82,16 +82,16 @@ public class CartesianPlane : MonoBehaviour
         string unitLabel = step < 1f ? "mm" : "cm"; // 1f is equal to 1 real world cm (also equivalent to 1 traversal unit in unity)
 
         float scale;
-        if (zoom < 2f)
+        if (zoom <= 1f)
             scale = 0.3f;
-        else if (zoom < 6f)
-            scale = 1f;
+        else if (zoom < 5f)
+            scale = 1.5f;
         else if (zoom < 10f)
-            scale = 2f;
+            scale = 2.5f;
         else if (zoom < 15f)
-            scale = 3f;
+            scale = 4.5f;
         else
-            scale = 4f;
+            scale = 5.5f;
 
         DrawAxes(step, unitLabel, scale);
     }
@@ -123,6 +123,9 @@ public class CartesianPlane : MonoBehaviour
             if (Mathf.Abs(value) < 0.001f) continue; // skip origin label
 
             Vector3 tickStart, tickEnd, textPos;
+            Color gridColor = new Color(0.7f, 0.7f, 0.7f, 0.01f); // GRID RGBA
+            float gridLineWidth = axisWidth / 4f;
+
             string label;
             if (unitLabel == "mm")
                 label = (value * 10f).ToString("0") + unitLabel;
@@ -136,6 +139,11 @@ public class CartesianPlane : MonoBehaviour
                 tickEnd = new Vector3(x, center.y + tickSize / 2f, 0f);
                 textPos = new Vector3(x, center.y - tickSize - labelOffset, 0f);
                 DrawLine($"{name}_tick_{i}", tickStart, tickEnd, colorX, axisWidth / 2f);
+
+                //GridX
+                Vector3 gridStart = new Vector3(center.x + value, center.y - graphHeight / 2f, 0f);
+                Vector3 gridEnd = new Vector3(center.x + value, center.y + graphHeight / 2f, 0f);
+                DrawLine($"{name}_grid_{i}", gridStart, gridEnd, gridColor, gridLineWidth);
             }
             else
             {
@@ -144,6 +152,11 @@ public class CartesianPlane : MonoBehaviour
                 tickEnd = new Vector3(center.x + tickSize / 2f, y, 0f);
                 textPos = new Vector3(center.x + tickSize + labelOffset, y, 0f);
                 DrawLine($"{name}_tick_{i}", tickStart, tickEnd, colorY, axisWidth / 2f);
+
+                // GridY
+                Vector3 gridStart = new Vector3(center.x - graphWidth / 2f, center.y + value, 0f);
+                Vector3 gridEnd = new Vector3(center.x + graphWidth / 2f, center.y + value, 0f);
+                DrawLine($"{name}_grid_{i}", gridStart, gridEnd, gridColor, gridLineWidth);
             }
 
             AddText(label, textPos, canvasObj, scale);
