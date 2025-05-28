@@ -1,0 +1,624 @@
+fileFormatVersion: 2
+guid: edd49d23f31d63d4580cf706e2888d6e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2665459192556145164
+    second: ChargedAndConfused_0
+  - first:
+      213: 2000225268566876217
+    second: ChargedAndConfused_1
+  - first:
+      213: -993569841606897822
+    second: ChargedAndConfused_2
+  - first:
+      213: 4926306294847515676
+    second: ChargedAndConfused_3
+  - first:
+      213: -1160843742032692412
+    second: ChargedAndConfused_4
+  - first:
+      213: -5806925896136927703
+    second: ChargedAndConfused_5
+  - first:
+      213: 445925646485227394
+    second: ChargedAndConfused_6
+  - first:
+      213: -1092425499635311601
+    second: ChargedAndConfused_7
+  - first:
+      213: -5621418755475009956
+    second: ChargedAndConfused_8
+  - first:
+      213: 5100271696970371727
+    second: ChargedAndConfused_9
+  - first:
+      213: 8873487291156909212
+    second: ChargedAndConfused_10
+  - first:
+      213: 1001322762709159085
+    second: ChargedAndConfused_11
+  - first:
+      213: -5577208907478087635
+    second: ChargedAndConfused_12
+  - first:
+      213: 8819428654685224651
+    second: ChargedAndConfused_13
+  - first:
+      213: -3455062254256526614
+    second: ChargedAndConfused_14
+  - first:
+      213: -6270893005629569932
+    second: ChargedAndConfused_15
+  - first:
+      213: 1575965938397727722
+    second: ChargedAndConfused_16
+  - first:
+      213: 1589511359575878573
+    second: ChargedAndConfused_17
+  - first:
+      213: -4822605512961991705
+    second: ChargedAndConfused_18
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ChargedAndConfused_0
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 310
+        width: 131
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f534609cf2620bd0800000000000000
+      internalID: -2665459192556145164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChargedAndConfused_1
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 303
+        width: 112
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93060bbb84a32cb10800000000000000
+      internalID: 2000225268566876217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChargedAndConfused_2
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 239
+        width: 146
+        height: 217
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26fca734e712632f0800000000000000
+      internalID: -993569841606897822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChargedAndConfused_3
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 316
+        width: 108
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1c28277971cd5440800000000000000
+      internalID: 4926306294847515676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChargedAndConfused_4
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 313
+        width: 167
+        height: 143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44bf76c54cad3efe0800000000000000
+      internalID: -1160843742032692412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChargedAndConfused_5
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 396
+        width: 117
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 926ddb3f9a7a96fa0800000000000000
+      internalID: -5806925896136927703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChargedAndConfused_6
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 371
+        width: 76
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2870dfa430f303600800000000000000
+      internalID: 445925646485227394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChargedAndConfused_7
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 316
+        width: 121
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0c98a6cbcce6d0f0800000000000000
+      internalID: -1092425499635311601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChargedAndConfused_8
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 316
+        width: 118
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5e813aec65bcf1b0800000000000000
+      internalID: -5621418755475009956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChargedAndConfused_9
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 262
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f82d5e3061ec7c640800000000000000
+      internalID: 5100271696970371727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChargedAndConfused_10
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 262
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9cc9547da5f42b70800000000000000
+      internalID: 8873487291156909212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChargedAndConfused_11
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 263
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daccac85fb965ed00800000000000000
+      internalID: 1001322762709159085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChargedAndConfused_12
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 238
+        width: 72
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d28cf974c06c992b0800000000000000
+      internalID: -5577208907478087635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChargedAndConfused_13
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 233
+        width: 69
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcef96452a7e46a70800000000000000
+      internalID: 8819428654685224651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChargedAndConfused_14
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 240
+        width: 55
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aeaed2a7f272d00d0800000000000000
+      internalID: -3455062254256526614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChargedAndConfused_15
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 238
+        width: 63
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 474c7f6390059f8a0800000000000000
+      internalID: -6270893005629569932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChargedAndConfused_16
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 238
+        width: 57
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aebcf40dba4fed510800000000000000
+      internalID: 1575965938397727722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChargedAndConfused_17
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 240
+        width: 52
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dabe7f1f8241f0610800000000000000
+      internalID: 1589511359575878573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChargedAndConfused_18
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 239
+        width: 62
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7eb5f0456d9a21db0800000000000000
+      internalID: -4822605512961991705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 1537655665
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ChargedAndConfused_0: -2665459192556145164
+      ChargedAndConfused_1: 2000225268566876217
+      ChargedAndConfused_10: 8873487291156909212
+      ChargedAndConfused_11: 1001322762709159085
+      ChargedAndConfused_12: -5577208907478087635
+      ChargedAndConfused_13: 8819428654685224651
+      ChargedAndConfused_14: -3455062254256526614
+      ChargedAndConfused_15: -6270893005629569932
+      ChargedAndConfused_16: 1575965938397727722
+      ChargedAndConfused_17: 1589511359575878573
+      ChargedAndConfused_18: -4822605512961991705
+      ChargedAndConfused_2: -993569841606897822
+      ChargedAndConfused_3: 4926306294847515676
+      ChargedAndConfused_4: -1160843742032692412
+      ChargedAndConfused_5: -5806925896136927703
+      ChargedAndConfused_6: 445925646485227394
+      ChargedAndConfused_7: -1092425499635311601
+      ChargedAndConfused_8: -5621418755475009956
+      ChargedAndConfused_9: 5100271696970371727
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
