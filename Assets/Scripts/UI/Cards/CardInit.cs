@@ -4,9 +4,8 @@ using UnityEngine.UI;
 public class CardInit : MonoBehaviour
 {
     public GameObject cardPrefab;
-    public Transform cardPanelParent;
+    public Transform cardPanelParent; 
     public Button addCardButton;
-
 
     void Start()
     {
@@ -15,14 +14,11 @@ public class CardInit : MonoBehaviour
 
     private void GenerateCard()
     {
+        Debug.Log("Generating card...");
+
         GameObject newCard = Instantiate(cardPrefab, cardPanelParent);
         newCard.transform.SetAsLastSibling();
         newCard.transform.localScale = Vector3.one;
-
-        // CardUI cardUI = newCard.GetComponent<CardUI>();
-        // if (cardUI != null)
-        // {
-        //     cardUI.Setup("$P{N}");
-        // }
     }
+
 }
