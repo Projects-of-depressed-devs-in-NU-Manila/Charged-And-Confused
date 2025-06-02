@@ -4,12 +4,21 @@ using UnityEngine.UI;
 
 public class ParticleCardInit : MonoBehaviour
 {
+    public static ParticleCardInit Instance;
+
     public GameObject cardPrefab;
     public GameObject particlePrefab;
 
     public Transform cardPanelParent;
     public Transform particleParent;
     public Button addCardButton;
+
+    [HideInInspector] public Particle latestParticle;
+
+    void Awake()
+    {
+        Instance = this;
+    }
 
     void Start()
     {
@@ -18,11 +27,11 @@ public class ParticleCardInit : MonoBehaviour
 
     private void GenerateCardandParticle()
     {
-        Debug.Log("Generating object...");
-
         GameObject particleObj = Instantiate(particlePrefab, Random.insideUnitCircle * 2f, Quaternion.identity, particleParent);
         Particle particle = particleObj.GetComponent<Particle>();
         ParticleManager.Instance.particles.Add(particle);
+
+        latestParticle = particle; 
 
         GameObject newCard = Instantiate(cardPrefab, cardPanelParent);
         newCard.transform.SetAsLastSibling();

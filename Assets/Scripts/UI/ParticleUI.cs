@@ -7,6 +7,7 @@ public class ParticleUI : MonoBehaviour
 {
     public TMP_InputField magnitude;
     public Button destroy;
+    public Button toggleField;
     private Particle targetParticle;
 
     public void Bind(Particle particle)
