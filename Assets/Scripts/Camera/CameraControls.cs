@@ -41,7 +41,7 @@ public class CameraController : MonoBehaviour
         if (Input.GetMouseButton(2)) // MMB pushed
         {
             Vector3 delta = Input.mousePosition - lastMousePosition;
-            Vector3 move = new Vector3(-delta.x * panSpeed * Time.deltaTime, -delta.y * panSpeed * Time.deltaTime, 0f);
+            Vector3 move = new Vector3(-delta.x * panSpeed * Time.unscaledDeltaTime, -delta.y * panSpeed * Time.unscaledDeltaTime, 0f);
 
             Camera.main.transform.Translate(move, Space.Self);
 
